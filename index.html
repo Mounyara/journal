@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Journal</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="page/news.html">News</a></li>
+  <li><a href="page/contact.html">Contact</a></li>
+  <li><a href="page/about.html">About</a></li>
+</ul>
+<br>
+ <marquee direction=""><h1>Bienvenu dans Mon Journal </h1></marquee>
+       
+            <table>
+                <tr>
+                    <td>
+                        <form onsubmit="event.preventDefault(); onFormSubmit()">
+        
+                            <div>
+                                <label for="code">Code Client</label>
+                                <input type="text" name="code" id="code">
+                            </div>
+                            <div>
+                                <label for="fullname">Nom et Prenom* <label class="validation-error hide"  id="fullNameValidationError" >This Field is required</label> </label>
+                                <input type="text" name="fullname" id="fullname">
+                            </div>                  
+                            <div>
+                                <label for="gender">Genre</label>
+                                <input type="text" name="gender" id="gender">
+                            </div>
+                            <div>
+                                <label for="code">Addresse</label>
+                                <input type="text" name="address" id="address">
+                            </div>
+                            <div>
+                                <label for="class">Fonction</label>
+                                <input type="text" name="class" id="class">
+                            </div>
+                            <div>
+                                <label for="school">Telephone</label>
+                                <input type="text" name="school" id="school">
+                            </div>
+                            <div>
+                                <input class="form-action-buttons submit" type="submit" value="Submit">
+                            </div>
+                            <div>
+                                <input class="form-action-buttons reset" type="reset" value="Annuler">
+                            </div>
+                            
+
+                        </form>
+                    </td>
+                    <td>
+                        <table class="list" id="emplist">
+                            <thead>
+                                <tr>
+                                    <td class="thead">Code Client</td>
+                                    <td class="thead">Nom et Prenom</td>
+                                    <td class="thead">Genre</td>
+                                    <td class="thead">Addresse</td>
+                                    <td class="thead">Fonction</td>
+                                    <td class="thead">Telephone</td>
+                                    <td class="thead">Actions</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+        
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    
+    <script src="assets/js/script.js"></script>
+  
+    
+  
+  
+  
+
+
+
+<div class="footer">
+    <p> OUSMANE MOUNYARA <br>Spécialité : Développeur web et Mobile<br>Tel: 63 97 98 13<br>Adresse : WALIA </p>
+    <a href="tel:63979813"></a>
+  </div>
+</body>
+</html>
